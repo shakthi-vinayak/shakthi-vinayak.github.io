@@ -20,11 +20,13 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I "
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
+          - "build CI/CD Pipelines"
+          - "Train AI Models"
+          - "Manage Complex Micro Service Applications"
+          - "Build scalable APIs"
+          - "Manage Cloud infrastrucure"
           - "open source tools"
         type_speed: 70
         delete_speed: 40
