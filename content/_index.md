@@ -1,13 +1,13 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
-summary: ''
+title: ""
+summary: ""
 date: 2026-01-05
 type: landing
 
 design:
   # Default section spacing
-  spacing: '0'
+  spacing: "0"
 
 sections:
   # Developer Hero - Gradient background with name, role, social, and CTAs
@@ -46,7 +46,7 @@ sections:
           dark: "#0a0a0f"
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
-  
+
   # Filterable Portfolio - Alpine.js powered project filtering
   - block: portfolio
     id: projects
@@ -59,7 +59,7 @@ sections:
           - projects
       buttons:
         - name: All
-          tag: '*'
+          tag: "*"
         - name: Full-Stack
           tag: Full-Stack
         - name: Frontend
@@ -80,7 +80,7 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # Visual Tech Stack - Icons organized by category
   - block: tech-stack
     id: skills
@@ -137,7 +137,7 @@ sections:
           dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # Experience Timeline
   - block: resume-experience
     id: experience
@@ -147,11 +147,11 @@ sections:
       items:
         - title: Senior Software Engineer
           company: Tech Corp
-          company_url: ''
-          company_logo: ''
+          company_url: ""
+          company_logo: ""
           location: San Francisco, CA
-          date_start: '2023-01-01'
-          date_end: ''
+          date_start: "2023-01-01"
+          date_end: ""
           description: |2-
             * Lead development of microservices architecture serving 1M+ users
             * Improved API response time by 40% through optimization
@@ -159,11 +159,11 @@ sections:
             * Tech stack: React, Node.js, PostgreSQL, AWS
         - title: Full-Stack Developer
           company: Startup Inc
-          company_url: ''
-          company_logo: ''
+          company_url: ""
+          company_logo: ""
           location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          date_start: "2021-06-01"
+          date_end: "2022-12-31"
           description: |2-
             * Built and deployed 3 production applications from scratch
             * Implemented CI/CD pipeline reducing deployment time by 60%
@@ -171,32 +171,32 @@ sections:
             * Tech stack: Next.js, Express, MongoDB, Docker
         - title: Junior Developer
           company: Web Agency
-          company_url: ''
-          company_logo: ''
+          company_url: ""
+          company_logo: ""
           location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
+          date_start: "2020-01-01"
+          date_end: "2021-05-31"
           description: |2-
             * Developed client websites using modern web technologies
             * Maintained and updated legacy codebases
             * Participated in code reviews and agile ceremonies
             * Tech stack: React, WordPress, PHP, MySQL
     design:
-      columns: '1'
+      columns: "1"
       background:
         color:
           light: "#ffffff"
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # Recent Blog Posts
   - block: collection
     id: blog
     content:
       title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
+      subtitle: "Thoughts on web development, tech, and more"
+      text: ""
       filters:
         folders:
           - blog
@@ -212,7 +212,7 @@ sections:
           dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # Contact Section
   - block: contact-info
     id: contact
@@ -222,33 +222,33 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: vinayak.jois@gmail.com
       autolink: true
     design:
-      columns: '1'
+      columns: "1"
       background:
         color:
           light: "#ffffff"
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # CTA Card
   - block: cta-card
     content:
       title: "Open to Opportunities"
       text: |-
         I'm currently looking for **senior engineering** or **tech lead** roles.
-        
+
         Let's connect and discuss how I can help your team.
       button:
-        text: 'Download Resume'
+        text: "Download Resume"
         url: uploads/resume.pdf
         new_tab: true
     design:
       card:
         # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
-        css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
+        css_class: "bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700"
         text_color: dark
       background:
         color:

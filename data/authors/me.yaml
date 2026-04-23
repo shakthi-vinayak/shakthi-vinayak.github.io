@@ -1,100 +1,100 @@
-schema: hugoblox/author/v1
+schema: hugoblox/author/v2
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Shakthi Vinayak
+  given: Shakthi
+  family: Vinayak
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: "💻" # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+role: Devops/Platform Engineer
+email: vinayak.jois@gmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Platform - DevOps engineer with 8+ years of experience building, automating, and operating large-scale infrastructure and developer platforms.
+  My focus is enabling engineering teams to deliver software faster, safer, and more reliably through automation, cloud-native architecture, and platform engineering practices.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+- name: Tech Corp
+  url: https://techcorp.example.com
 
 links:
-  - icon: at-symbol
-    url: mailto:alex@example.com
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/alexjohnson
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+- icon: at-symbol
+  url: mailto:vinayak.jois@gmail.com
+  label: E-mail Me
+- icon: brands/github
+  url: https://github.com/shakthi-vinayak
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/vinayak-jois/
+- icon: brands/x
+  url: https://x.com/vinayak_jois
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+- Web Development
+- Cloud Architecture
+- Open Source
+- Developer Experience
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
-    summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+- degree: B.S. Computer Science
+  institution: State University
+  start: 2015-09-01
+  end: 2019-05-31
+  summary: |
+    Focus on software engineering and distributed systems.
+    Senior project on distributed caching systems.
+  button:
+    text: View Project
+    url: https://github.com/alexjohnson/senior-project
+    icon: brands/github
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
-    summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
-    summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+- role: Senior Software Engineer
+  org: Tech Corp
+  start: 2023-01-01
+  summary: |
+    Lead development of microservices architecture serving 1M+ users.
+    Improved API response time by 40% through optimization.
+    Mentored team of 5 junior developers.
+- role: Full-Stack Developer
+  org: Startup Inc
+  start: 2021-06-01
+  end: 2022-12-31
+  summary: |
+    Built and deployed 3 production applications from scratch.
+    Implemented CI/CD pipeline reducing deployment time by 60%.
+    Led migration from monolith to microservices architecture.
+- role: Junior Developer
+  org: Web Agency
+  start: 2020-01-01
+  end: 2021-05-31
+  summary: |
+    Developed client websites using React and modern web technologies.
+    Participated in code reviews and agile ceremonies.
 
 skills:
-  - name: Development
-    items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
-        level: 4
-  - name: DevOps
-    items:
-      - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
-        level: 5
+- name: Development
+  items:
+  - label: TypeScript
+    level: 5
+  - label: React
+    level: 5
+  - label: Node.js
+    level: 5
+  - label: Python
+    level: 4
+- name: DevOps
+  items:
+  - label: Docker
+    level: 4
+  - label: AWS
+    level: 4
+  - label: CI/CD
+    level: 5
 
 languages:
-  - name: English
-    level: 5
-    label: Native
+- name: English
+  level: 5
+  label: Native
 
 awards: []
